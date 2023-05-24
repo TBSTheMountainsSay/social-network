@@ -1,0 +1,29 @@
+.avatar{
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.veryBig{
+    width: 16rem;
+    height: 16rem;
+}
+
+.big{
+    width: 10rem;
+    height: 10rem;
+}
+
+.small{
+    width: 5rem;
+    height: 5rem;
+}

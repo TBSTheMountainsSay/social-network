@@ -1,0 +1,15 @@
+.creator{
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+}
+
+.avatar{
+  min-height: 100%;
+
+}
+
+.name{
+    padding-left: 15px;
+}
+

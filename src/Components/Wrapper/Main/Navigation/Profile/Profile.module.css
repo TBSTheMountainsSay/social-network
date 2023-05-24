@@ -1,0 +1,17 @@
+.profile{
+    background-color: var(--back);
+    height: 14rem;
+    width: 22rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.profile:hover > a {
+    border-bottom: 1px solid var(--light-blue);
+}
+
+.profile:hover{
+    box-shadow: 0 0 2rem 0.25rem var(--button);
+}

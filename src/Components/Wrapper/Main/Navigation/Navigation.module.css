@@ -1,0 +1,17 @@
+.navigation{
+    width: 100%;
+    flex: 1 1 23%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: sticky;
+    top: 10rem;
+    background-color: var(--def);
+    z-index: 99;
+}
+
+@media (max-width: 768px){
+    .navigation{
+        display: none;
+    }
+}

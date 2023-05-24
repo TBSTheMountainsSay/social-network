@@ -1,0 +1,18 @@
+.header{
+    height: 10rem;
+    width: 100%;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color: var(--def);
+    z-index: 90;
+}
+
+@media (max-width: 768px){
+    .header{
+        height: 8rem
+    }
+}

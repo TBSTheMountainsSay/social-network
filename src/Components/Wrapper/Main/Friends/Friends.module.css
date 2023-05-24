@@ -1,0 +1,110 @@
+.friends{
+    width: 100%;
+    flex: 1 1 77%;
+    display: flex;
+    background-color: var(--back);
+    border-radius: 2rem;
+    margin: 0 3rem 3rem 0;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+
+.user{
+    width: 17rem;
+    height: 28rem;
+    background-color: var(--back);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0.5rem;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.user:last-child{
+   margin-bottom: 7.5rem;
+}
+
+.name{
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--main-text);
+}
+
+.status{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.button{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--def);
+    background-color: var(--button);
+    width: 15.5rem;
+    height: 4rem;
+    border-radius: 1.5rem;
+    transition: 0.5s;
+}
+
+.button-grey{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--back);
+    background-color: var(--text);
+    width: 15.5rem;
+    height: 4rem;
+    border-radius: 1.5rem;
+    transition: 0.5s;
+}
+
+.preloader svg{
+    stroke: var(--text);
+    fill: var(--text);
+    width: 7.5rem;
+    height: auto;
+    position: fixed;
+    bottom: 5%;
+    left: 56%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user:hover{
+    background-color: var(--def);
+    box-shadow: 0 0 2rem 0.2rem var(--main-text);
+}
+
+.button:hover{
+    background-color: var(--hover-button);
+}
+
+@media (max-width: 768px){
+    .friends{
+        flex: 1 1 auto;
+        margin: 0;
+    }
+    .preloader svg{
+        left: 47%
+    }
+    .user:last-child{
+        margin-bottom: 9rem;
+    }
+}
+
+@media (max-width: 480px){
+    .preloader svg{
+        left: 43%
+    }
+    .user:last-child{
+        margin-bottom: 7rem;
+    }
+}

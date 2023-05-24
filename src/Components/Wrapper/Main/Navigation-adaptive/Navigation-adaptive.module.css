@@ -1,0 +1,9 @@
+.navigation-adaptive{
+
+}
+
+@media (min-width: 769px){
+    .navigation-adaptive{
+        display: none;
+    }
+}

@@ -1,0 +1,33 @@
+.message{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 0.5rem 1rem;
+    min-height: 4rem;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: var(--text);
+    border-radius: 1rem;
+    background-color: var(--def);
+    margin: 0 0.5rem;
+    max-width: 75%;
+}
+
+.my{
+    background-color: var(--button);
+    color: var(--def);
+    margin-left: auto;
+}
+
+.message:first-child{
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 479px){
+    .message{
+        font-size: 1.8rem;
+        max-width: 85%;
+        padding: 2rem 1rem;
+    }
+}
