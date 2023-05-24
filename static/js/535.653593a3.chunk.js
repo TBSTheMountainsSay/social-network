@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksocial_network=self.webpackChunksocial_network||[]).push([[535],{5535:function(e,r,n){n.r(r),n.d(r,{default:function(){return t}});n(2791);var s="Error_error__-6bhg",a="Error_message__PvnD3",c=n(184),t=function(){return(0,c.jsx)("div",{className:s,children:(0,c.jsx)("div",{className:a,children:"This page has not been created :("})})}}}]);
+//# sourceMappingURL=535.653593a3.chunk.js.map
